@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                    Geo data by IP address.
                    DESC
 
-  s.homepage     = "https://github.com/lexrus/MMDB-Swift"
+  s.homepage     = "https://github.com/ilqprs/MMDB-Swift"
 
   s.license      = { :type => "APACHE 2.0", :file => "LICENSE" }
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.10"
 
-  s.source       = { :git => "https://github.com/lexrus/MMDB-Swift.git",
+  s.source       = { :git => "https://github.com/ilqprs/MMDB-Swift.git",
                      :tag => s.version }
 
   s.source_files  = "Sources/MMDB.swift", "Sources/libmaxminddb/*.{h,c}"
